@@ -8,9 +8,10 @@ nav {
 }
 
 #logoimg {
-    margin-left: 10px;
+    margin-left: 20px;
     height: 25px;
     width: 67px;
+    align-items: center;
 }
 
 
@@ -56,6 +57,8 @@ button[type="submit"]:hover {
 
 
 .feedbackbtn {
+    font-family: 'Poppins', sans-serif;
+ 
     padding: 3px 6px 3px 6px;
     margin-right: 20px;
     color: #34c94b;
