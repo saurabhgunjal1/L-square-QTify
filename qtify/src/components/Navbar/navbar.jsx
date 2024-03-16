@@ -9,7 +9,7 @@ import searchicon2 from "../../assets/search-icon.svg"
 const Navbar=()=>{
     return(
         <nav>
-            <div >
+            <div className="logocontainer">
                 <img src={LogoImage} alt="img"  id="logoimg"/>
             </div>
 
