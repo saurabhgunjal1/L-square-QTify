@@ -1,0 +1,18 @@
+.herocontainer {
+    height:  16.875rem;
+    width: 100vw;
+    /* background: rgb(61, 56, 49); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--css-white);
+}
+
+.headphoneimg {
+    Width:212px;
+    Height:212px;
+}
+
+.headingtext {
+    margin: 0;
+}
