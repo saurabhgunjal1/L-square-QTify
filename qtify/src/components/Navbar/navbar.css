@@ -44,11 +44,12 @@ nav {
 
 }
 .searchbtn {
-    border: 0;
+    border: 1.41px solid whitesmoke;
     outline: 0;
     height: 25px;
    /* padding:2px; */
    padding-left: 10px;
+   /* padding-bottom: 1.5px; */
    padding-right: 10px;
    border-radius: 5px;
    border-top-left-radius: 0;

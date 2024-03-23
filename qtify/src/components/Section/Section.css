@@ -1,0 +1,21 @@
+.header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* cursor: pointer; */
+}
+
+.toggletext {
+    cursor: pointer;
+    color: var(--css-primary);
+}
+
+.wrapper {
+    gap: 20px;
+}
+
+.filerWrapper{
+    /* background-color: yellow; */
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}

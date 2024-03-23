@@ -1,0 +1,11 @@
+.rightnavigation {
+    position: absolute;
+    right: 10px;
+    top:40%;
+    z-index: 10;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* background-color: rgb(214, 223, 223); */
+    height: 52px;
+    width: 52px;
+ }

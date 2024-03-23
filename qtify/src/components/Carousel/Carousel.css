@@ -1,0 +1,25 @@
+
+/* Carousel.css */
+.crouselmaindiv{
+    position: relative;
+}
+/* Style for Swiper container */
+/* .swiper-container {
+  position: relative; /* Ensure proper positioning of Swiper slides */
+/* } */ 
+
+/* Style for Swiper slides */
+.swiper-slide {
+    /* margin-bottom: 40px; */
+    /* flex-shrink:1 !important; */
+  /* position: relative; Ensure proper positioning of each slide */
+  /* width: auto; Adjust slide width as needed */
+  /* height: auto; Adjust slide height as needed */
+  /* display: flex!important ;Display slides in a flex container */
+  /* align-items: center; Center content vertically within each slide */
+  /* justify-content: center; Center content horizontally within each slide */
+  /* background-color: #f0f0f0; Example background color */
+  /* border-radius: 8px; Example border radius */
+  /* padding: 20px; Example padding */
+  /* box-sizing: border-box; Ensure padding and border are included in the width and height */
+}

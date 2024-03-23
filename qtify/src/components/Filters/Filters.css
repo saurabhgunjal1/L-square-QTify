@@ -1,0 +1,12 @@
+/* .filters {
+    color: rgb(0, 14, 26);
+    display: flex;
+    background-color: aliceblue;
+} */
+
+.tab {
+  color: var(--css-white);
+  font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: none;
+}
