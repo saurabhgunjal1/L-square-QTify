@@ -2,25 +2,23 @@ import React from "react";
 import './navbar.css'
 // import SearchIcon from '@mui/icons-material/Search';
 import LogoImage from "../../assets/logo.png"
-import SearchIcon from "../../assets/search.png"
-import searchicon2 from "../../assets/search-icon.svg"
+import Searchbar from "../Search/search";
+import { useState } from "react";
+import { SearchResultsList } from "../Search/SearchResultsList";
 
-
-const Navbar=()=>{
+const Navbar=(data)=>{
+    // console.log(data)
+    const [results, setResults] = useState([]);
     return(
         <nav>
             <div className="logocontainer">
-                <img src={LogoImage} alt="img"  id="logoimg"/>
+                <img src={LogoImage} alt="img"  id="logoimg"/>s
             </div>
 
 
-            <div className="searchcontainer">
-            <input type="text"
-            placeholder="Search a album of your choice" 
-            className="inputbar"
-            />
-            <button type="submit" className="searchbtn"><img src={searchicon2} alt="img" className="searchicon"/></button>
-            
+            <div>
+            <Searchbar data={data} setResults={setResults}/>
+            {results && results.length > 0 && <SearchResultsList results={results} />}
             </div>
 
 

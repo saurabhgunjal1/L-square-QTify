@@ -1,0 +1,25 @@
+.results-list {
+    position: absolute;
+    top: -16px;
+    left: 350px;
+    width: 41%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0px 0px 8px #ddd; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 5cap;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #34C94B;
+    border-top: none;
+    scrollbar-width: thin;
+    scrollbar-color: #456f4b9f transparent;
+    
+
+  }
+
+  .results-list::-webkit-scrollbar-track {
+    background-color: #456f4b9f; /* Change the background color of the scrollbar track */
+  }

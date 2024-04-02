@@ -15,7 +15,7 @@ const Landingpage = () => {
     return (
         <>
         
-            <Navbar />
+            <Navbar data={topAlbums}/>
             <Herosection />
             <div>
 
