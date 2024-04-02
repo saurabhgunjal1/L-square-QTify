@@ -1,4 +1,6 @@
 import "./SearchResult.css";
+import React from "react";
+
 
 export const SearchResult = ({ result }) => {
     const handleClick = () => {

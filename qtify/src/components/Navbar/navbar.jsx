@@ -12,7 +12,7 @@ const Navbar=(data)=>{
     return(
         <nav>
             <div className="logocontainer">
-                <img src={LogoImage} alt="img"  id="logoimg"/>s
+                <img src={LogoImage} alt="img"  id="logoimg"/>
             </div>
 
 
