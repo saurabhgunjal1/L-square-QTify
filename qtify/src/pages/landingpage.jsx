@@ -8,10 +8,13 @@ import { useOutletContext } from "react-router-dom";
 import { fetchfilters } from "../api/api";
 import Section from "../components/Section/Section";
 import { colors } from "@mui/material";
+import Faq from "../components/Faq/Faq";
+import Musicplayer from "../components/musicplayer/musicplayer";
 const Landingpage = () => {
     const { data } = useOutletContext();
 
     const { newAlbums, topAlbums, songs } = data;
+    console.log(songs);
     return (
         <>
         
@@ -30,7 +33,8 @@ const Landingpage = () => {
                     type="song"
                 />
                 {/* <hr color="var(--css-primary)"/> */}
-                
+                <Faq/>
+                <Musicplayer data={songs}/>
             </div>
         </>
     );

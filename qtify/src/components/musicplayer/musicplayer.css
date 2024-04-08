@@ -1,0 +1,42 @@
+.rhap_container {
+    background-color: black !important;
+    width: 80vw;
+}
+
+.songdetaildiv{
+    color: aliceblue;
+    height: 88px;
+    width: 230px;
+    /* border: 1px solid red; */
+    position: relative;
+    display:flex;
+    align-items: center;
+
+}
+
+.defaultalbumimg {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 80px;
+    width: 70px;
+    cursor: pointer;
+
+}
+
+.musicplayertopdiv {
+    position: relative;
+    display: flex;
+}
+
+.songnameh6 {
+    /* position: absolute; */
+    font-weight: 400;
+    
+    height: 21px;
+    width: 117px;
+    /* border: 1px solid greenyellow; */
+    margin: 0;
+    bottom: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+}

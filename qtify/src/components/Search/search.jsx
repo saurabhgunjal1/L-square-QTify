@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "./search.css";
 import searchicon2 from "../../assets/search-icon.svg";
-import { ReactSearchAutocomplete } from 'react-search-autocomplete';
-import axios from 'axios';
-import { title } from 'process';
+
 
 function Searchbar({ data ,setResults}) {
     const [allData, setAllData] = useState([]);
@@ -48,6 +46,7 @@ const handlechange =(value)=>{
             />
             <button type="submit" className="searchbtn"><img src={searchicon2} alt="img" className="searchicon"/></button>
         </div>
+      
     );
 }
 
