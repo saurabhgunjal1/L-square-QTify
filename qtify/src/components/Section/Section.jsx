@@ -7,6 +7,7 @@ import Card from "../Card/card";
 import { ToggleButton } from "@mui/material";
 import Carousel from "../Carousel/Carousel";
 import Filter from "../Filters/filters";
+import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
 
 export default function Section({title,data,filterSource,type,showToggle}){
     const[filters,setFilters]=useState([{key:"all",label:"All"}]);
@@ -65,7 +66,9 @@ export default function Section({title,data,filterSource,type,showToggle}){
                     {!carouseltoggle ? (
                         <div className="wrapper">
                             {cardsToRender.map((ele, index)=>(
+                             
                                 <Card key={index} data={ele} type={type}/>
+                               
                             ))}
                         </div>
                     ):(

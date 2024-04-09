@@ -10,6 +10,7 @@ import Section from "../components/Section/Section";
 import { colors } from "@mui/material";
 import Faq from "../components/Faq/Faq";
 import Musicplayer from "../components/musicplayer/musicplayer";
+import ErrorBoundary from "../components/ErrorBoundary/ErrorBoundary";
 const Landingpage = () => {
     const { data } = useOutletContext();
 
@@ -21,11 +22,11 @@ const Landingpage = () => {
             <Navbar data={topAlbums}/>
             <Herosection />
             <div>
-
+            
                 <Section title="Top Albums" data={topAlbums} type="album" showToggle={true} />
                 <Section title="New Albums" data={newAlbums} type="album" showToggle={true}/>
                 {/* <hr color="var(--css-primary)"/> */}
-                
+               
                 <Section
                     title="Songs"
                     data={songs}

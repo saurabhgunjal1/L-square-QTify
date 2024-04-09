@@ -5,10 +5,21 @@ import LogoImage from "../../assets/logo.png"
 import Searchbar from "../Search/search";
 import { useState } from "react";
 import { SearchResultsList } from "../Search/SearchResultsList";
+import Feedback from "../feedback/feedback";
 
 const Navbar=(data)=>{
     // console.log(data)
     const [results, setResults] = useState([]);
+    const [showFeedbackForm, setShowFeedbackForm] = useState(false);
+
+    const handleForm = () => {
+        setShowFeedbackForm(true);
+    }
+
+    const closeFeedbackForm = () => {
+        setShowFeedbackForm(false);
+    }
+
     return(
         <nav>
             <div className="logocontainer">
@@ -24,8 +35,9 @@ const Navbar=(data)=>{
 
 
             <div>
-                <button className="feedbackbtn">Give Feedback</button>
+                <button className="feedbackbtn" onClick={handleForm}>Give Feedback</button>
             </div>
+            {showFeedbackForm && <Feedback onClose={closeFeedbackForm} />}
         </nav>
     )
 }
